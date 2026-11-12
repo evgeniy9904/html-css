@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    margin: auto;
+    max-width: 800px; 
+    background-color:#F4F1EC ;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #202124;
+}
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+h2 {
+    font-size: 24px;
+}
+.hero {
+    margin-left: 40px;
+}
+
+.poster img {
+    width: 300px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 025);
+    margin-left: 0px;
+    object-fit: cover;
+    box-shadow: 0px 0px 14px rgba;
+}
+.movie {
+    display: flex;
+}
+.movie-info {
+    
+    
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    
+    
+    
+}
+.about-movie {
+    background-color: #FFFEFC;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
+}
+ .btn-play ,
+ .btn-more ,
+ .review-btn{
+    border: none;
+    background-color:#286B68;
+    font-weight: 600;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    transition: transform 0.2s ease;
+
+}
+.btn-play span,
+.review-btn {
+    font-size: 16px;
+}
+
+.btn-play:hover ,
+.btn-more:hover ,
+.review-btn:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    
+    
+ }
+ .btn-play:active ,
+ .btn-more:active ,
+ .review-btn:active {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    transform: scale(1.03);
+ }
+.btn-play ,
+.review-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 28px;
+    margin-right: 10px;
+}
+.movie .btn-more {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    
+}
+th {
+    text-align: left;
+    color:rgb(95, 95, 95);
+    width: 200px;
+    font-weight: 400;
+}
+.actors {
+    display: flex;
+    flex-direction:row;
+    
+}
+.actor {
+    display: flex;
+    flex-direction:column;
+    margin-right: 50px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    text-decoration: underline;
+    color: #74716D;
+    transition: transform 0.2s ease;
+
+}
+.actor:hover {
+    color: #C89A52;
+    transform: scale(1.02);
+}
+.styles_paragraph {
+    background-color: #FFFEFC;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+        
+.review-form > div{
+    border-bottom: 1px solid rgb(95, 95, 95);
+}
+.review-btn{ 
+    visibility: hidden;
+    margin-top: 20px;
+}
+.review-form:focus-within {
+    .review-btn{
+        visibility: visible;
+    } 
+}
+.review-textarea {
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    transition: transform 0.2s ease;
+    transform-origin: left center;
+}
+.review-textarea:hover {
+    transform: scale(1.1);
+}
+.review-textarea::placeholder{
+    padding-top: 25px;
+}    
+.review-textarea:focus::placeholder {
+  color: transparent;
+}
+.reviews p {
+    padding: 5px 0 50px 5px;
+    background-color: aqua;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+    
+}
+
+
+
+footer {
+    margin-top: 20px;
+    background-color:black;
+    height: 100px;
+    padding:10px
+}
+.footer-link {
+    display: flex;    
+}
+.footer-link a {
+    padding:0 85px;
+    color: rgb(95, 95, 95);
+    text-decoration-color: rgb(95, 95, 95);
+}
+.footer-link p:hover {
+    color:rgb(150, 150, 150);
+}
+.footer p {
+    color: rgb(95, 95, 95);
+}

@@ -189,7 +189,7 @@ footer {
     color: rgb(95, 95, 95);
 }
 
-@media (max-width:650px) {
+@media (max-width:700px) {
     .movie {
         display:block;
     }
